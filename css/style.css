@@ -1,5 +1,5 @@
 
-
+/* #region ASSETS */
 *{
     margin: 0;
     padding: 0;
@@ -34,21 +34,21 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
+/* #endregion ASSETS */
+/* #region INIZIO PAGINA */
 .discord{
     height: 2rem;
 }
-.logo{
-   
+
+.logo{  
    padding: 0.7rem  ;
-   margin: 0.3rem 0;
-   
+   margin: 0.3rem 0;  
 }
 
 a{
     color: white;
     text-decoration: none;
-    margin: 0 0.2rem;
+    margin: 0 0.1rem;
 
 }
 
@@ -86,7 +86,8 @@ header{
     background-size: cover;
     color: white;
 }
-
+/* #endregion INIZIO PAGINA */
+/* #region INTRODUZIONE */
 .title{
   
     padding-top: 2rem;
@@ -131,12 +132,12 @@ h2{
 .freccia{
     font-size: 1rem;
 }
+/* #endregion INTRODUZIONE */
+/* #region CONTENUTI */
 .presentazione{
    
     text-align: center;
     padding-top: 15px;
-
-
 }
 
 
@@ -154,7 +155,7 @@ img{
 }
 
 .sfondo{
-    background-color:#d3d3d3 ;
+    background-color:#e6e6e6 ;
     align-items: center;  
     padding-bottom: 25px;
     padding-top: 25px;
@@ -167,67 +168,120 @@ img{
     padding-top: 25px;
 }
 
-
-.videocall{
-    background-color:#228b22 ;
-    text-align: center;
-    height: 600px;
-    border: 1px dotted black ;
+.img_big{
+    height: 35rem;
 }
+.videocall{
+    text-align: center;
+}
+
+.stelle{
+    margin: auto;
+   background-size: cover;
+  width: 50%;
+   background-image: url(../img/stars.svg);
+}
+/* #endregion CONTENUTI */
+/* #region PARTE FINALE DEL MAIN */
+h3{
+    padding-top: 1rem ;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+.scarica_bottom{
+    background-color: #7289da;
+    color: white;
+    border: 1px solid #7289da;
+    margin-bottom: 4rem;
+}
+
+.bandiera{
+    height: 1rem;
+}
+
+.lingua{
+   font-size:  0.8rem;
+}
+
+
 
 .nav_final{
     background-color: #23272a;
-    border: 1px dotted black ;
+
     text-align: center;
 
  }
 
  .social, .approfondimenti{
-    height: 400px;
+   margin-bottom: 2rem;
  }
 
  .social{
-    background-color:#f08080 ;
+    color: #ffffff;
+    text-align: left;
+ }
+.titolo_finale{
+    color: #7289da;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+i{
+    margin: 1rem 0.5rem;
+    font-size: 1.5rem;
+}
+ .approfondimenti{
+    padding-top: 2rem;
  }
 
- .approfondimenti{
-    background-color: #20b2aa;
+ .nav_title{
+    color: #7289da;
+    font-size: 1rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
  }
+
 
  .sfondo_final{
     background-color: #23272a;
-    padding-bottom: 25px;
     padding-top: 25px;
 }
 
 .prodotto, .compagnia, .risorse, .norme{
-    border: 1px dotted white;
-    height: 400px ;
+    text-align: left;
+    color: #ffffff;
+    line-height: 2rem;
+    padding: 0 2rem;
+    font-size: 0.8rem;
+    
 }
 
-
+hr{
+    border: 1px solid #7289da ;
+}
+/* #endregion PARTE FINALE DEL MAIN */
+/* #region FOOTER */
 .end{
-    background-color:#7fffd4 ;
-     padding: 5px 0;
-     display: flex;
-     
+     padding-bottom: 2rem;
+     display: flex;    
 
-}
-
- .logo_final, .registrazione{
-    background-color: #ffb6c1;
-    margin:10px 0;
-   
 }
 
 .space-between{
     justify-content: space-between;
 }
 
-
-
-
-/* DIVISIONI IN COLONNE */
+.registrazione{
+    
+    border-radius: 22px;
+    border: 2px solid #7289da;
+    font-size: 0.8rem;
+    background-color: #7289da;
+    color: #ffffff;
+}
+/* #endregion FOOTER */
+/* #region DIVISIONI IN COLONNE */
 .col-1{
     width: calc((100% / 12) * 1);
 }
@@ -274,4 +328,4 @@ img{
     width: calc((100% / 12) * 12);
 }
 
-
+/* #endregion DIVISIONI IN COLONNE */
